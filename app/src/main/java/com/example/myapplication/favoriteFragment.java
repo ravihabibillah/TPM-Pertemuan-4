@@ -15,7 +15,6 @@ import android.view.ViewGroup;
  */
 public class favoriteFragment extends Fragment {
 
-
     public favoriteFragment() {
         // Required empty public constructor
     }

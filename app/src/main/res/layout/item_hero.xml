@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layoutItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:layout_marginBottom="10dp"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivGambarHero"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ahmad_yani"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvNamaHero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pahlawan"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvDeskripsi"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/deskripsi"-->
+<!--                android:justificationMode="inter_word"/>-->
+<!--        </ScrollView>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
